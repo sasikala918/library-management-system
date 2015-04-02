@@ -1,0 +1,242 @@
+===Database lms
+
+== Table structure for table books
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ISBN**//|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|count|int(11)|No|
+|date|varchar(20)|No|
+|type|int(11)|No|
+== Dumping data for table books
+
+|BK1001|Java Complete Reference 7th edition|Java|John williams|1|20/03/2015|0
+|BK1003|Let us C|CSE|Yeswanth Kanetkar|1|21/03/2015|0
+|BK1005|Database Management Systems|Databases|Krishnamurthy|1|22/03/2015|0
+|BK1007|Theory of Machines|Mechanical|Cengel|1|22/03/2015|0
+|BK1008|Stuctural designs|CIVIL|Bansal|1|23/03/2015|0
+|BK2001|My Land|Politics|LK adwani|1|26/03/2015|1
+|BK2003|General studies|GK|Narayan|1|28/03/2015|1
+|BK2009|Two States|Novel|Chetan bagat|1|03/04/2015|1
+|BK2010|History|Others|hari narayan|1|04/04/2015|1
+== Table structure for table books
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ISBN**//|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|count|int(11)|No|
+|date|varchar(20)|No|
+|type|int(11)|No|
+== Table structure for table books_result
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|ISBN|varchar(20)|No|
+|date|varchar(20)|No|
+|count|int(11)|No|
+== Dumping data for table books_result
+
+== Table structure for table books_result
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|ISBN|varchar(20)|No|
+|date|varchar(20)|No|
+|count|int(11)|No|
+== Table structure for table books_user
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|ISBN|varchar(20)|No|
+|status|int(11)|No|
+|date|varchar(20)|No|
+== Dumping data for table books_user
+
+== Table structure for table books_user
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(50)|No|
+|author|varchar(100)|No|
+|ISBN|varchar(20)|No|
+|status|int(11)|No|
+|date|varchar(20)|No|
+== Table structure for table images
+
+|------
+|Column|Type|Null|Default
+|------
+|name|varchar(10)|No|
+|content|char(10)|No|
+== Dumping data for table images
+
+|1.JPG|D9KSDS0
+|2.JPG|PSD89DF
+|3.JPG|DJCKDJC
+|4.JPG|JCKD8CD
+|5.JPG|MCD89C9
+|6.JPG|SFDJSKJ
+|7.JPG|FJSKFJ8
+|8.JPG|5744758
+|9.JPG|DJHFDFD
+|10.JPG|F8D9F8J
+|11.JPG|JKD890V
+|12.JPG|JCKDJC8
+|13.JPG|UCIDU90
+|14.JPG|DSJIC90
+|15.JPG|DCUD89D
+|16.JPG|DKF9F8D
+|17.JPG|VKDFJV9
+|18.JPG|CVDVDVD
+|19.JPG|C8CD898
+|20.JPG|CD8D888
+== Table structure for table images
+
+|------
+|Column|Type|Null|Default
+|------
+|name|varchar(10)|No|
+|content|char(10)|No|
+== Table structure for table login
+
+|------
+|Column|Type|Null|Default
+|------
+|uname|varchar(15)|No|
+|pwd|varchar(50)|No|
+|type|int(11)|No|
+|max_books|int(11)|No|
+== Dumping data for table login
+
+|LA201510000|LA201510000|3|0
+|LA201510001|LA201510001|3|0
+|LA201510002|LA201510002|3|0
+== Table structure for table login
+
+|------
+|Column|Type|Null|Default
+|------
+|uname|varchar(15)|No|
+|pwd|varchar(50)|No|
+|type|int(11)|No|
+|max_books|int(11)|No|
+== Table structure for table register_images
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(12)|No|
+|images|varchar(10)|No|
+== Dumping data for table register_images
+
+== Table structure for table register_images
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(12)|No|
+|images|varchar(10)|No|
+== Table structure for table status_result
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(100)|No|
+|author|varchar(100)|No|
+|isbn|varchar(20)|No|
+|status|int(11)|No|
+|date|varchar(20)|No|
+== Dumping data for table status_result
+
+== Table structure for table status_result
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|name|varchar(100)|No|
+|stream|varchar(100)|No|
+|author|varchar(100)|No|
+|isbn|varchar(20)|No|
+|status|int(11)|No|
+|date|varchar(20)|No|
+== Table structure for table updates
+
+|------
+|Column|Type|Null|Default
+|------
+|content|text|No|
+|date|varchar(20)|No|
+== Dumping data for table updates
+
+|Library Opening Date: 04/04/2015.|18/03/2015
+|New books added to the library.|20/03/2015
+|New books regarding general studies added to the library.|21/03/2015
+|You can see all news paper in library from 25/03/2015 onwards.|22/03/2015
+== Table structure for table updates
+
+|------
+|Column|Type|Null|Default
+|------
+|content|text|No|
+|date|varchar(20)|No|
+== Table structure for table user_details
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|title|char(3)|No|
+|sirname|char(60)|No|
+|fname|char(60)|No|
+|mname|char(60)|No|
+|dob|varchar(20)|No|
+|add|varchar(500)|No|
+|pin|int(11)|No|
+|phno|varchar(15)|No|
+|mid|varchar(50)|No|
+== Dumping data for table user_details
+
+== Table structure for table user_details
+
+|------
+|Column|Type|Null|Default
+|------
+|uid|varchar(20)|No|
+|title|char(3)|No|
+|sirname|char(60)|No|
+|fname|char(60)|No|
+|mname|char(60)|No|
+|dob|varchar(20)|No|
+|add|varchar(500)|No|
+|pin|int(11)|No|
+|phno|varchar(15)|No|
+|mid|varchar(50)|No|

@@ -1,0 +1,40 @@
+.slide{
+    width:100%;
+    height:220px;
+    transition:all 3s;
+    position:relative;
+    float:up;
+    border-bottom:solid black 1px;
+}
+
+.inner_content{
+    opacity:0;
+    transition:all 2s;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.slid_change{
+    position:absolute;
+    right:1%;
+    bottom:2%;
+}
+
+.button{
+    margin-left:3px;
+    float:left;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    background:gray;
+    border:4px solid lightgray;
+    box-shadow:1px 0px 3px 0px black;
+    cursor:pointer;
+    transition:all 1s;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+}
